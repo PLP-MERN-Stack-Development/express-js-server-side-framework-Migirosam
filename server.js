@@ -4,6 +4,9 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const dotenv = require('dotenv');
 
+require('dotenv').config();
+
+
 // Load environment variables
 dotenv.config();
 
